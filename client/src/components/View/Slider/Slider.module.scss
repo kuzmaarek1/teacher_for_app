@@ -1,0 +1,44 @@
+.codeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  background: #f7f8fc;
+}
+
+.code {
+  padding: 2vw;
+  border: 2px solid #e0e0e0;
+  font-size: 1em;
+}
+
+.buttonsGrid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70vw;
+  gap: 1vw;
+}
+
+.file {
+  color: #616161;
+}
+
+.img {
+  width: 40vw;
+  height: 50vh;
+}
+
+@media (max-width: 500px) {
+  .code {
+    font-size: 0.5em;
+  }
+  .file {
+    font-size: 0.7em;
+  }
+  .img {
+    width: 95vw;
+    height: 40vh;
+  }
+}

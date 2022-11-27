@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92.5vh;
+  background: #f7f8fc;
+  flex-direction: column;
+}
+.description {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.buttonsGrid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70vw;
+  gap: 1vw;
+}
+.img {
+  width: 40vw;
+  height: 20vw;
+}
